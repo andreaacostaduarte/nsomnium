@@ -1,0 +1,127 @@
+@media only screen and (max-width: 900px) {
+.porfolio-piece {
+  margin-left: 0;
+  padding-right: 0;
+		width: 100%;
+}
+.categories {
+  margin: 0 auto;
+  width: 100%;
+}
+.piece-cnt {
+  padding-right: 98px;
+}
+}
+@media only screen and (max-width: 800px) {
+#wrapper, #footer, ul.footer-nav, #footer .net-misc, #footer .copy-email, ul.nav-bar {
+	width: 100%;
+}
+.categories {
+  background: url("../images/bgd-portofolioNav.png") no-repeat scroll -38px top;
+}
+#footer {
+	background: url(../images/bgd-footer.gif) repeat-x center top;
+}
+#header {
+	background-size: cover;
+	background-position: center;
+}
+#logo {
+	margin: 0 auto;
+}
+.primary-navigation {
+	background-color: #cccccc;
+}
+.porfolio-piece {
+  background: url("../images/bgd-portfolioPiece.png") no-repeat scroll -38px top;
+}
+ul.nav-bar {
+	margin: 0;
+	border-bottom: 1px dotted #999999;
+}
+ul.nav-bar li {
+	border-top: 1px dotted #999999;
+	padding: 8px;
+	text-align: center;
+	float: left;
+	display: block;
+}
+ul.nav-bar li a {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 1em;
+}
+ul.nav-bar li.current_page_item a, a.navActive {
+	border: 0;
+}
+.porfolio-piece a.thumbnail {
+  display: inline;
+  float: left;
+  margin: 2px 15px 0 0;
+}
+.piece-cnt {
+  padding-right: 20px;
+}
+.home-intro {
+  margin-right: 0;
+}
+}
+@media only screen and (max-width: 768px) {
+.categories {
+  background: url("../images/bgd-portofolioNav.png") no-repeat scroll -55px top;
+}
+.porfolio-piece {
+  height: auto;
+		  background: url("../images/bgd-portfolioPiece.png") no-repeat scroll -38px bottom;
+}
+.piece-cnt {
+  height: auto;
+  overflow: auto;
+		background: #b2aeae ;
+		margin-bottom: 32px;
+		padding: 18px 24px;
+}
+.porfolio-piece a.thumbnail {
+  width: 100%;
+}
+.porfolio-piece a.thumbnail img {
+  height: auto;
+  width: 100%;
+}
+}
+@media only screen and (max-width: 640px) {
+.home-intro {
+  display: block;
+  float: none;
+  width: 287px;
+		margin: 0 auto;
+}
+}
+@media only screen and (max-width: 360px) {
+#footer {
+	background: none;
+	border-top: 1px solid #CCC;
+}
+#footer .net-misc {
+	height: auto;
+	margin: 34px auto;
+}
+#footer .networks, #footer .miscellaneous, #footer .copy-email #footer-copyright, #footer .copy-email .email {
+	display: block;
+	float: none;
+}
+#footer-copyright {
+	width: 100%!important;
+}
+ul.footer-nav {
+	background: #ffffff;
+	padding: 12px;
+}
+ul.footer-nav li {
+	margin-bottom: 12px;
+}
+.featured-work {
+  margin-left: 0;
+  width: 100%;
+}
+}
